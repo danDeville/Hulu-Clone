@@ -8,7 +8,7 @@ export default function Home({results}) {
   return (
     <div>
       <Head>
-        <title>Hulu</title>
+        <title>Hulu | Stream TV and Movies Live and Online</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
