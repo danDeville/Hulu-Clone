@@ -24,4 +24,3 @@ const HeaderItem = ({ Icon, title }) => {
 }
 
 export default HeaderItem
-
