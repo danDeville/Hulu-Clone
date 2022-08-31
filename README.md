@@ -1,8 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hulu Clone - Next.js
 
-## Getting Started
+_Las mejores películas y series del momento._
 
-First, run the development server:
+Proyecto personal clon de la plataforma Hulu, servicio de suscripción a la carta de vídeo. Se Consume la API de themoviedb para el listado de películas.
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dz8on44po/image/upload/v1661297039/Personal/Portfolio/h4jgkxc4mj76rn9g6lqv.png">
+</p>
+
+## Comenzando 🚀
+
+Este es un proyecto de [Next.js](https://nextjs.org/) iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Primero, ejecute el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -10,25 +20,46 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra http://localhost:3000 con su navegador para ver el resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Puede comenzar a editar la página modificando `pages/index.js`. La página se actualiza automáticamente a medida que edita el archivo.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Se puede acceder [API routes](https://nextjs.org/docs/api-routes/introduction) se puede editar en [http://localhost:3000/api/hello](http://localhost:3000/api/hello).
 
-## Learn More
+El directorio `pages/api` está asignado a `/api/*`. Los archivos en este directorio se tratan como rutas [API routes](https://nextjs.org/docs/api-routes/introduction) en lugar de páginas React.
 
-To learn more about Next.js, take a look at the following resources:
+## Aprende más 🎓
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para obtener más información sobre Next.js, eche un vistazo a los siguientes recursos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) - obtener información sobre las funciones y la API de Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - Tutorial interactivo de Next.js.
 
-## Deploy on Vercel
+Puedes revisar [the Next.js GitHub repository](https://github.com/vercel/next.js/) - ¡Sus comentarios y contribuciones son bienvenidos!
+
+## Deploy en Vercel 💻
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+La forma más fácil de implementar su aplicación Next.js es usar [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
+
+Echa un vistazo a nuestra [Next.js deployment documentation](https://nextjs.org/docs/deployment) para más detalles.
+
+## Construido con 🛠️
+
+_Para la construcción y desarrollo de esta aplicación se utilizaron las siguientes herramientas._
+* [React](https://es.reactjs.org/) - Framework web JavaScript
+* [Tailwind CSS](https://tailwindcss.com/) - Framework de CSS
+
+## Autor ✒️
+
+* **Daniel Tinjaca** - *Desarrollo Inicial* - [danDeville](https://github.com/danDeville)
+
+## Licencia 📄
+
+Este proyecto está bajo Licencia MIT
+
+---
+Desarrollado con 🖤 por [danDeville](github.com/danDeville) 🤘😎🤘
+
