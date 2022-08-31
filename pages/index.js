@@ -24,18 +24,37 @@ export default function Home({results}) {
   )
 }
 
-export async function getServerSideProps(context) {
-  const genre = context.query.genre
+// export async function getServerSideProps(context) {
+//   const genre = context.query.genre
 
-  const request = await fetch(
-    `https://api.themoviedb.org/3${
+//   const request = await fetch(
+//     `https://api.themoviedb.org/3${
+//       requests[genre]?.url || requests.fetchTrending.url
+//     }`
+//   ).then(res => res.json())
+
+//   return {
+//     props:{
+//       results: request.results,
+//     }
+//   }
+// }
+
+export const getServerSideProps = async (context) => {
+  try {
+    const genre = context.query.genre
+    const request = await fetch(`https://api.themoviedb.org/3${
       requests[genre]?.url || requests.fetchTrending.url
-    }`
-  ).then(res => res.json())
+    }`)
+    const response = await request.json()
 
-  return {
-    props:{
-      results: request.results,
+    return {
+      props:{
+        results: response.results,
+      }
     }
+  }
+  catch(error) {
+    console.error(error)
   }
 }
